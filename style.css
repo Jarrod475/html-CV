@@ -1,0 +1,127 @@
+
+body
+{
+    background-color: #9A9A76;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: poppins;
+    font-size: 0.75rem;
+}
+
+  .container {
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 30% 10% 45% 15%;
+    height: 960px;
+    width: 620px;
+  }
+
+.box-pfp
+{
+  background-color: black;
+  grid-row: span 2;
+  background-image: url(./PFP.png);
+  background-size: cover;
+}
+
+.box-skills
+{
+  grid-row-start: 3;
+  background-color: #2F0000;
+}
+
+.box-contact
+{
+  grid-row-start: 4;
+  background-color: #440001;
+}
+
+.box-header
+{
+  grid-row: auto;
+  background-color: #911C35;
+}
+
+.box-meat
+{
+  background-color: #621422 ;
+  grid-row: span 3;
+}
+
+.headings
+{
+  font-family: oswald ;
+  text-align: center;
+  font-size: rem;
+  padding-top: 10px;
+  margin: 0%;
+}
+
+.headings2
+{
+  font-family: oswald ;
+  text-align: left;
+  font-size: 1.75rem;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.title
+{
+  padding-top: 35px;
+  font-size: 3rem;
+}
+
+hr
+{
+  margin-top: 20px;
+  width: 75%;
+}
+
+a:link
+{
+  color: #9A9A76 ;
+}
+a:visited
+{
+  color: #77774e;
+}
+a:hover
+{
+  color: white;
+}
+
+.ul-fancy
+{
+  list-style-type:square;
+}
+
+.div-btn
+{
+  margin-top: 30px;
+  display: flex;
+  justify-content:space-around
+}
+
+.a-btn
+{
+  width: 35%;
+  height: 20px;
+  border: solid  #77774e ;
+  background-color: #9A9A76;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+a.a-btn:link , a.a-btn:active, a.a-btn:visited
+{
+  color: black;
+}
+a.a-btn:hover
+{
+  background-color: #77774e;
+}
+

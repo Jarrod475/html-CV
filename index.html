@@ -3,58 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jarrod Londt</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>That ugly CV</title>
 </head>
 <body>
-    <h1>Jarrod Londt</h1>
-    <h2>keyboard monkey</h2>
-    <img src="./PFP.png" height="250">
-    <hr>
-    <h3>Kto to jest???</h3>
-    <p>I am a programmer originaly from South Africa. I have been coding since primary school <br> 
-    And have a WICKED passion for creating all things virtual! Currently I am working as an <br>
-    English Teacher in Gliwice, but I am eager to throw myself head first into the developer pits! <br>
-    </p>
-    <h3>Education</h3>
-    <ul>
-        <li>
-            <h4>University of Pretoria - 2019 to 2022</h4>
-            <h5>Honours degree - Information systems</h5>
-        </li>
-        <li>
-            <h4>TEFL Qualification - 2022 October to December</h4>
-            <h5>Level 5 - Fully Certified</h5>
-        </li>
-        <li>
-            <h4> Udemy Course - October 2024</h4>
-            <h5> The Complete 2024 Web Development Bootcamp (completed)</h5>
-        </li>
-    </ul>
-    <h3>Work Experience</h3>
-    <ul>
-        <li>
-            <h4>Freelance work for FAME MEDIA - 2022 Feb - June</h4>
-            <p>Hired by a photography company to design and develop an app to keep track of<br>
-            camera equipement leaving the office to go out on shoots.</p>
-        </li>
-        <li>
-            <h4>English teacher for MYSPEED ENGLISH GLIWICE - 2023 April - present</h4>
-            <p>Currently teaching Students of all ages and all levels, from matura prep to Business English.</p>
-        </li>
-    </ul>
-    <h3>Skills</h3>
-    <P>A quick rundown of my programmer knowledge</P>
-    <ul>
-        <li>C#</li>
-        <li>web dev</li>
-        <li>Agile methodologies</li>
-        <li>Javascript + Node.JS</li>
-        <li>GDscript</li>
-    </ul>
-    <h3>About me</h3>
-    <a href="./Aboutme.html">Hobbies and passions</a> <br>
-    <a href="./Contacts.html">Contact</a>
-    <hr>
-    <footer>© 2024 Jarrod Londt</footer>
+    <div class="container">
+        <div class="box-pfp"></div>
+        <div class="box-skills">
+            <h2 class="headings">Skills</h2>
+            <ul>
+                <li>C#</li>
+                <li>web dev</li>
+                <li>Agile methodologies</li>
+                <li>Javascript + Node.JS</li>
+                <li>GDscript</li>
+            </ul>
+            <hr/>
+            <h2 class="headings">Languages</h2>
+            <ul>
+                <li>English - Native</li>
+                <li>Afrikaans - Native</li>
+                <li>Polish - A1</li>
+            </ul>
+            <hr/>
+            <h2 class="headings">Soft skills</h2>
+            <ul>
+                <li>Adaptable</li>
+                <li>Confident</li>
+                <li>Great under pressure</li>
+                <li>Team player</li>
+            </ul>
+        </div>
+        <div class="box-contact">
+            <h2 class="headings">Contact Details</h2>
+            <ul style="margin-top: 0%; list-style-type: none;">
+                <li><img class="contact-svg" src="./Assets/SVG/linkedin.svg" height="20px"> <a href="https://www.linkedin.com/in/jarrod-londt475/">linkedin</a> </li>
+                <li><img class="contact-svg" src="./Assets/SVG/github.svg" height="20px"> <a href="https://github.com/Jarrod475">Github</a></li>
+                <li><img class="contact-svg" src="./Assets/SVG/email.svg" height="20px"> <a href="mailto:jarrodlondtwork@gmail.com">jarrodlondtwork@gmail.com</a></li>
+                <li style="color:  #9A9A76;"><img class="contact-svg" src="./Assets/SVG/smartphone.svg" height="20px"> 0728246312    </li>
+            </ul>
+        </div>
+        <div class="box-header">
+            <h1 class="headings title">JARROD <br> LONDT</h1>
+            <h2 class="headings">keyboard Monkey</h2>
+            <div class="div-btn">
+                <a class="a-btn" href="./Portfolio.html">My portfolio!</a>
+                <a class="a-btn" href="./Aboutme.html">About me!</a>
+            </div>
+            
+        </div>
+        <div class="box-meat">
+            <h2 class="headings2">Experience</h2>
+            <ul class="ul-fancy">
+                <li><h3>Freelance developer <br> June - Aug 2022</h3>
+                    <p>Developed an app for a photography studio that <br> enabled them to keep track of the coming and <br> going of equipemnt.</p>
+                </li>
+                <li><h3>Speed school of English <br> April 2023 - current</h3>
+                <p>Teaching the English language at all age groups <br> for every level of student.</p>
+                </li>
+            </ul>
+            <hr>
+            <h2 class="headings2">Education</h2>
+            <ul class="ul-fancy">
+                <li><h3>University of Pretoria <br> Jan 2019 - Dec 2022</h3>
+                <p>Degree in Information Systems with Honours</p>
+                </li>
+                <li><h3>TEFL Certificate <br> Dec 2022 - Jan 2023</h3>
+                <p>TEFL level 5 fully certified</p>
+                </li>
+                <li><h3>Udemy Complete Web dev Bootcamp <br> Oct - Nov 2024</h3>
+                <p>Brushed up on the fundamentals of Web Dev <br> and all its components.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
