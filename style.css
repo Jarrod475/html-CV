@@ -16,7 +16,7 @@
     .container {
       display: grid;
       grid-template-columns: 0.4fr 0.6fr;
-      grid-template-rows: 30% 10% 45% 15%;
+      grid-template-rows: 25% 10% 45% 20%;
       height: 960px;
       width: 620px;
     }
@@ -24,6 +24,7 @@
     .contact-svg
     {
       height: 1.2rem;
+      padding-right: 10px;
     }
 
     .headings
@@ -57,6 +58,8 @@
 
 .box-contact
 {
+  padding-top: 20px;
+  padding-right: 10px ;
   grid-row-start: 4;
   background-color: #440001;
 }
@@ -262,6 +265,7 @@ a:hover
   background-color: #9A9A76;
   text-align: center;
   text-decoration: none;
+
   
 }
 
@@ -271,9 +275,22 @@ a.a-btn:link , a.a-btn:active, a.a-btn:visited
 }
 a.a-btn:hover
 {
-  background-color: #77774e;
+  background-color: black;
 }
 }
 
 
+@media print {
+  .a-btn {
+    display: none;
+  }
 
+  body {
+    color: black;
+    background: white;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+}
