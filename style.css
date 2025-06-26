@@ -183,7 +183,7 @@ a.a-btn:hover
 {
   background-color: black;
   grid-row: span 2;
-  background-image: url(./PFP.png);
+  background-image: url(./PFP.PNG);
   background-size: cover;
 }
 
